@@ -132,6 +132,7 @@ public class MainApp {
 
 			wb.write(excelFileStream);
 			wb.close();
+			System.out.println("Done!");
 			
 		} catch (IOException e) {
 			e.printStackTrace();	
